@@ -1,0 +1,42 @@
+#nav{
+    width: 30px;
+    aspect-ratio: 1;
+    background-color: #83838321;
+    backdrop-filter: blur(2px);
+    width: 30%;
+    max-width: 200px;
+    border-radius: 0 10px 10px 0;
+    overflow: hidden;
+    height: 100%;
+}
+
+.userOut{
+    margin: 5px;
+    width: calc(100% - 10px);
+    border-bottom: 1.5px solid #dddddd0b;
+    display: flex;
+    align-items: center;
+    padding-bottom: 5px;
+}
+
+.imageOut{
+    width: 25px;
+    aspect-ratio: 1;
+    background: #dddddd1d;
+    border-radius: 50%;
+    // background-image: url("");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fcon{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.nameInfo{
+    font-size: 12px;
+    color: #9c9c9c;
+    font-weight: 100;
+}
