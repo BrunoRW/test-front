@@ -29,7 +29,8 @@ main{
   top: 50%;
   transform: translate(-50%, -50%);
   border-radius: 10px;
-  background-color: #33333360;
+  background-color: #0d0b27b8;
   overflow: hidden;
   display: flex;
+  max-width: 1000px;
 }
